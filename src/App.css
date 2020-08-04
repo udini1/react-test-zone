@@ -1,0 +1,186 @@
+
+
+.testZone {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+/* changing dark mode and light mode styling */
+.darkTheme{
+  background-color: black;
+  color: aliceblue;
+}
+
+.lightTheme{
+  background-color: white;
+  color: black;
+}
+
+
+#homePageHeader{
+  color: rgb(14, 150, 160);
+  font-family: cursive;
+  margin-top: 40px;
+  text-shadow: 1px 2px black
+  /* text-decoration-line: underline; */
+}
+
+
+
+/*  navigation bar style */
+.navigation{
+  background-color: rgb(133, 225, 231);
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-top: 20px; */
+  align-items: center;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: black;
+}
+
+/* when dark mode is on - Navigation bar will change to this */
+.darkNavigation{
+  background-color: black;
+  /* border-style: solid; */
+  border-bottom: 0.5px solid;
+  border-color: white;
+  color: rgb(133, 225, 231);
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-top: 20px; */
+  align-items: center;
+}
+
+/* dark mode navigation bar links styling */
+.darkNavigation a{
+  text-decoration: none;
+  /* margin: auto; */
+  /* color: black; */
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+/* navigation bar hovering effects */
+#homePageNav:hover, #toDoListNav:hover, #registrationNav:hover,#userPageNav:hover{
+  scale: 1.2;
+}
+
+#toDoListHeader, #registrationHeader{
+  color: rgb(14, 150, 160);
+}
+#linkToList,#linkToRegistration, #dropDownBar{
+  background-color: rgb(133, 225, 231);
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  color: black;
+}
+#linkToList:hover, #linkToRegistration:hover{
+  color: rgb(133, 225, 231);
+  background-color: black;
+}
+
+#theToDoList{
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#itemSection{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+#itemName{
+  flex: 1;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  
+}
+
+#removeItem{
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(133, 225, 231);
+  margin: auto;
+  width: 25px;
+  height: 30px;
+  color: black;
+  margin-left: 10px;
+  
+}
+
+
+#addToList{
+  background-color: rgb(133, 225, 231);
+  color: black;
+  height: 30px;
+}
+
+#inputName{
+  width: 150px;
+  height: 24px;
+}
+
+#checkButton{
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  width: 40px;
+  height: 30px;
+  color: black;
+  /* background-color: rgb(133, 225, 231); */
+  margin-left: 10px;
+}
+
+
+.registrationForm{
+  margin-top: 20px;
+}
+
+.registrationForm input[type ='text'] ,[type='password']{
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#finishRegButton{
+  width: auto;
+  height: 30px;
+  background-color: rgb(133, 225, 231);
+  border: double;
+}
+
+#dropDownBar{
+  appearance: none;
+  width: 200px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;  
+}
+
+/* #dropDownBar:hover{
+
+} */
